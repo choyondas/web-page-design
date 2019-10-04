@@ -1,0 +1,51 @@
+*{margin: 0;padding:0}
+
+header{background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url(../bb.png);height:100vh;
+    background-size: cover;
+    background-position: center;}
+
+ul{float:right;margin-right: -168px;
+margin-right:-50px;}
+ul li{
+    display:inline-block;
+    padding-top:20px;
+    padding-right:10px;
+   
+}
+
+ul li a{text-decoration: none;
+    color:white;padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{background-color:white;
+    color:black;
+    
+
+
+}
+ul li #active a{
+
+    background:white;
+    color:black;
+   
+
+
+}
+.logo img{
+    float: left;
+    widows: 150px;
+    height: auto;
+    margin-left: -167px;
+}
+#main{max-width: 1200px;
+margin:auto;}
+.web{position: absolute;top:50%;left:50%;transform: translate(-50%,-14%);
+    color:#ffffff;font-size: 40px;}
+
+
+
+
+
